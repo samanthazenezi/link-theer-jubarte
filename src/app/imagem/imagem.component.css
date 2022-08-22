@@ -1,0 +1,15 @@
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 119px;
+}
+img {
+    width: 135px;
+
+    border-radius: 50%;
+    border: 1px solid #03045e;
+
+    padding: 5px;
+}

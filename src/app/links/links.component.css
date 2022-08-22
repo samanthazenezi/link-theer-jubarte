@@ -1,0 +1,38 @@
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+    margin-top: 120px;
+}
+li {
+    list-style: none;
+    
+    border: 2px solid #03045e;
+
+    width: 220px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 400ms;
+}
+a {
+    text-decoration: none;
+
+    color: #03045e;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+}
+li:hover {
+    border-radius: 40px;
+}
+a:hover {
+    font-weight: 600;
+}

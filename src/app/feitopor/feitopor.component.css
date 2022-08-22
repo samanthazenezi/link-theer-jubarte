@@ -1,0 +1,19 @@
+div {
+    text-align: center;
+    
+    padding: 20px;
+}
+p, a {
+    color: #03045e;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #03055e80;
+    font-weight: 500;
+    text-decoration: underline;
+}
